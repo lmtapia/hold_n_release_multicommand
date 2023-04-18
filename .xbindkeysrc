@@ -1,0 +1,23 @@
+# Config example for hold_n_release multikey with xbindkeys
+# copy this file to your home directory
+
+# Mouse Button #8
+# multikey according to hold_n_release script
+"/home/luis/hold_n_release.d/hold_n_release.sh 8 1"
+    b:8
+#
+"/home/luis/hold_n_release.d/hold_n_release.sh 8 1 release"
+    b:8 + Release
+
+# other commands
+# Mouse Button #9 
+# change window
+"xdotool alt+Tab"
+    b:9
+
+##################################
+# End of xbindkeys configuration #
+##################################
+
+
+
