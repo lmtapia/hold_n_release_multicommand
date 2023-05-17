@@ -4,7 +4,7 @@
 # until the release event 
 
 # Based on doubleclick_delayed from   https://www.nongnu.org/xbindkeys/xbindkeys.html
-# Modified By Luis Tapia <luistapia2998@gmail.com>
+# Modified By Luis Tapia <https://github.com/lmtapia>
 
 BUTTON=$1
 DELAY=$2
