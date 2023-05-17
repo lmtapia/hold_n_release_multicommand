@@ -1,10 +1,10 @@
 #!/bin/bash
-#
+
 # hold_n_release.sh Executes one of various programs according to the delay
-# from the button press until the release 
+# from the button press until the consecuent release 
 
 # Based on doubleclick_delayed from   https://www.nongnu.org/xbindkeys/xbindkeys.html
-# Modified By Luis Tapia <https://github.com/TapiaX>
+# Modified By Luis Tapia <https://github.com/lmtapia>
 
 BASE="`dirname "$(readlink -f "$0")"`"
 BUTTON=$1
